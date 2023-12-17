@@ -1,0 +1,59 @@
+/* Header.css */
+.head-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 999;
+  }
+
+  .head-left{
+    display: flex;
+    padding: 5px;
+  }
+  
+  .head-left > img {
+    display: flex;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .head-right {
+    display: flex;
+  }
+  
+  .head-search {
+    padding: 10px;
+    align-items: center;
+    height: 22px;
+    color: gray;
+    background-color: #eef3f8;
+    display: inline-block;
+  }
+  
+  .search-icon {
+    padding-right: 5px;
+  }
+  
+  .head-search > input {
+    outline: none;
+    border: none;
+    background: none;
+  }
+
+.head-right > button {
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.head-right > button:hover {
+  cursor: pointer;
+  color: black;
+}
+  

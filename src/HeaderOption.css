@@ -1,0 +1,26 @@
+/* HeaderOption.css */
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 10px 3px;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+.headerOption_title {
+    font-size: 12px;
+    font-weight: 400;
+}
+  
+.headerOption_image {
+    width: 30px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    border-radius: 50%; /* Optional: Add border-radius for a circular image */
+    margin-right: 8px; /* Optional: Add margin to separate the image from the icon */
+  }
